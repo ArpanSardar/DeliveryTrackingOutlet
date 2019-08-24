@@ -2,8 +2,10 @@
 
 ##Step 1
 Go to server folder and run > npm install
+
 ##Step 2
 Go to client folder and run > npm install or yarn
+
 ##Step 3
 To run both the client and server side I have setup script with concurrently package. You can go to server folder and run > npm run dev ::: If that does not work due to port availability issue then manually first got to client folder and run > yarn start and then go to server folder and run > npm run server. This will run client and server selerately.
 
